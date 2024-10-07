@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Signika+Negative:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Protest+Strike&display=swap');
 
 
 *{
@@ -13,20 +14,19 @@
 }
 
 .hero-background {
-  position: absolute;
   inset: 0;
   z-index: -10;
   height: 100%;
   width: 100%;
-  background-color: rgb(0, 0, 0);
+  background-color: rgb(2, 1, 10);
   background-image: 
-      linear-gradient(to right, #3433333f 0.5px, transparent  0.5px),
-      linear-gradient(to bottom, #3433333f  0.5px, transparent  0.5px);
+      linear-gradient(to right, #34333350 0.8px, transparent  0.8px),
+      linear-gradient(to bottom, #34333350  0.8px, transparent  0.8px);
   background-size: 6rem 4rem;
 }
 
 .hero-gradient {
-  position: absolute;
+  position: fixed;
   top: 0;
   bottom: 0;
   left: 0;
@@ -35,7 +35,7 @@
 }
 
 .hero-gradient2 {
-  position: absolute;
+  position: fixed;
   top: 0;
   bottom: 0;
   left: 0;
@@ -53,6 +53,8 @@
   color: #a9a9a9;
   cursor: pointer;
 }
+
+
 
 .navbar-brand:hover{
   color: whitesmoke;
@@ -73,6 +75,8 @@
   justify-content: center;
   color: #666666;
   background-color: rgba(255, 255, 255, 0.098);
+  transition: 0.5s all;
+
 }
 
 .logo{
@@ -84,4 +88,120 @@
 .logop{
   margin: 0px;
   margin-left: 15px;
+  font-family: "Protest Strike", sans-serif !important;
+  font-weight: 200;
+}
+
+.logo:hover .cir{
+  background-color: #ffffffa7 !important;
+  transition: 1s all;
+}
+
+.main-hero{
+  width: 100%;
+  height: 80%;
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0px 100px;
+  font-family: "Signika Negative", sans-serif;
+  margin-top: 120px;
+
+  /* gap: 20px; */
+}
+
+.main-hero h1, p{
+  margin: 0px;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+.main-hero h1{
+  width: 50%;
+  font-family: "Protest Strike", sans-serif;
+  font-weight: 500;
+
+}
+
+
+.main-hero p{
+  font-family: "Signika Negative", sans-serif;
+  text-decoration: underline;
+
+
+}
+
+.pic-cir{
+  height: 130px;
+  width: 130px;
+  border-radius: 50%;
+  border: 1px solid rgba(128, 128, 128, 0.336);
+  background-image: url(https://i.pinimg.com/enabled/564x/2c/e2/73/2ce273f4d073dbf784243a13fc92a1b9.jpg);
+  background-position-Y:90%;
+  background-size: cover;
+  margin-bottom: 20px;
+  box-shadow: rgba(255, 255, 255, 0.25) 0px 25px 50px -12px;}
+
+/* From Uiverse.io by Madflows */ 
+.button {
+  position: relative;
+  overflow: hidden;
+  height: 3rem;
+  padding: 0 2rem;
+  border-radius: 1.2rem;
+  background: #3d3a4eb8;
+  background-size: 400%;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+  box-shadow: rgba(255, 255, 255, 0.25) 0px 25px 50px -12px;
+
+}
+
+.button:hover::before {
+  transform: scaleX(1);
+}
+
+.button-content {
+  position: relative;
+  z-index: 1;
+}
+
+.button::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: scaleX(0);
+  transform-origin: 0 50%;
+  width: 100%;
+  height: inherit;
+  border-radius: inherit;
+  background: linear-gradient(
+    82.3deg,
+    rgba(150, 93, 233, 1) 10.8%,
+    rgba(99, 88, 238, 1) 94.3%
+  );
+  transition: all 0.475s;
+}
+
+.arrow{
+  margin-top: -3px;
+}
+
+.sec1{
+  height: 100vh;
+}
+
+.navbar-brand:focus, .navbar-brand:hover{
+  color: #a9a9a9;
+}
+
+.nav-link:focus, .nav-link:hover{
+  color: #a9a9a9;
 }

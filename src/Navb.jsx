@@ -12,11 +12,11 @@ function Navb() {
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="ms-auto">
-                        <Nav.Link href="#Linkedin">Linkedin</Nav.Link>
-                        <Nav.Link>/</Nav.Link>
-                        <Nav.Link href="#Discord">Discord</Nav.Link>
-                        <Nav.Link>/</Nav.Link>
-                        <Nav.Link href="#Instagram">Instagram</Nav.Link>
+                        <Nav.Link href="#Linkedin" className='nav-link ann'>Linkedin</Nav.Link>
+                        <Nav.Link className='nav-link'>/</Nav.Link>
+                        <Nav.Link href="#Discord" className='nav-link ann'>Discord</Nav.Link>
+                        <Nav.Link className='nav-link'>/</Nav.Link>
+                        <Nav.Link href="#Instagram" className='nav-link ann'>Instagram</Nav.Link>
 
 
                     </Nav>
