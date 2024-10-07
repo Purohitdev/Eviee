@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Signika+Negative:wght@300..700&display=swap');
+
+
+*{
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+.hero{
+  height: 100vh;
+  padding: 20px 100px;
+}
+
+.hero-background {
+  position: absolute;
+  inset: 0;
+  z-index: -10;
+  height: 100%;
+  width: 100%;
+  background-color: rgb(0, 0, 0);
+  background-image: 
+      linear-gradient(to right, #3433333f 0.5px, transparent  0.5px),
+      linear-gradient(to bottom, #3433333f  0.5px, transparent  0.5px);
+  background-size: 6rem 4rem;
+}
+
+.hero-gradient {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-image: radial-gradient(circle 500px at 100% 800px, #5f5f5f5c, transparent);
+}
+
+.hero-gradient2 {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-image: radial-gradient(circle 500px at 0% 0px, #5f5f5f5c, transparent);
+}
+
+.nav{
+  border-bottom: 0.5px solid rgba(128, 128, 128, 0.352);
+  font-family: "Signika Negative", sans-serif;
+
+}
+
+.navbar-brand , .nav-link{
+  color: #a9a9a9;
+  cursor: pointer;
+}
+
+.navbar-brand:hover{
+  color: whitesmoke;
+}
+
+.nav-link:hover{
+  color: whitesmoke;
+}
+
+
+.nav .cir{
+  height: 50px;
+  width: 50px;
+  border:1px solid rgba(128, 128, 128, 0.461) ;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #666666;
+  background-color: rgba(255, 255, 255, 0.098);
+}
+
+.logo{
+  display: flex;
+  align-items: center;
+
+}
+
+.logop{
+  margin: 0px;
+  margin-left: 15px;
+}
