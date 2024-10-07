@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
 import { CgWebsite } from "react-icons/cg";
 import { FaDiscord } from "react-icons/fa";
-import { FaDev } from "react-icons/fa";
+import { FaDatabase } from "react-icons/fa";
 import { TiDeviceDesktop } from "react-icons/ti";
 import gsap from "gsap";
 import ScrollTrigger from "gsap/ScrollTrigger";
@@ -79,8 +79,8 @@ function Sec2() {
                     <p>Build and grow your Discord server with our community of passionate creators!</p>
                 </div>
                 <div className="box-det">
-                <FaDev className='det-icon'/>
-                    <h1>Development</h1>
+                <FaDatabase  className='det-icon'/>
+                    <h1>Data analyst</h1>
                     <p>Bringing your vision to life with the latest technology and design trends.</p>
                 </div>
 

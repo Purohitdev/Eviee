@@ -5,6 +5,7 @@ import Sec1 from './Sec1';
 import gsap from 'gsap';
 import Sec2 from './Sec2';
 import Sec3 from './Sec3';
+import Sec4 from './Sec4';
 
 function Hero() {
 
@@ -32,7 +33,7 @@ function Hero() {
         })
 
 
-        t1.from(".button",{
+        t1.from(".main-hero .button",{
             y:100,
             opacity:0,
         })
@@ -62,6 +63,7 @@ function Hero() {
                 <Sec1 />
                 <Sec2/>
                 <Sec3/>
+                <Sec4/>
 
 
             </div>
