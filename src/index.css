@@ -137,7 +137,7 @@
   height: 130px;
   width: 130px;
   border-radius: 50%;
-  border: 1px solid rgba(128, 128, 128, 0.336);
+  border: 1px solid rgba(195, 195, 195, 0.336);
   background-image: url(https://i.pinimg.com/enabled/564x/2c/e2/73/2ce273f4d073dbf784243a13fc92a1b9.jpg);
   background-position-Y:90%;
   background-size: cover;
@@ -195,7 +195,10 @@
 }
 
 .sec1{
-  height: 100vh;
+  height: 30vh;
+  margin: 100px 0px;
+  display: flex;
+  flex-direction: column;
 }
 
 .navbar-brand:focus, .navbar-brand:hover{
@@ -204,4 +207,38 @@
 
 .nav-link:focus, .nav-link:hover{
   color: #a9a9a9;
+}
+
+.marq1{
+  height: 100%;
+  width: 100%;
+  display: flex;
+}
+
+.marq1:nth-child(2){
+  margin-top: 30px;
+}
+
+
+
+
+.box-mrq{
+  border: 1px solid rgba(255, 255, 255, 0.394);
+  height: 100px;
+  width: 100px;
+  margin: 0px 20px;
+  cursor:crosshair;
+  transition: 1s all;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: whitesmoke;
+  font-size: 52px;
+
+
+}
+
+.box-mrq:hover{
+  background-color: rgba(255, 255, 255, 0.274);
+  transition: 1s all;
 }
