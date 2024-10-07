@@ -3,6 +3,8 @@ import Navb from '../Navb';
 import { PiArrowCircleUpRightDuotone } from "react-icons/pi";
 import Sec1 from './Sec1';
 import gsap from 'gsap';
+import Sec2 from './Sec2';
+import Sec3 from './Sec3';
 
 function Hero() {
 
@@ -58,6 +60,9 @@ function Hero() {
 
                 </div>
                 <Sec1 />
+                <Sec2/>
+                <Sec3/>
+
 
             </div>
         </>
