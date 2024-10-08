@@ -18,10 +18,14 @@ import { DiRuby } from "react-icons/di";
 import { SiPostman } from "react-icons/si";
 import { GrMysql } from "react-icons/gr";
 import { IoLogoFigma } from "react-icons/io5";
+import { SiIntellijidea } from "react-icons/si";
+import { AiOutlineDotNet } from "react-icons/ai";
 import { SiCanva } from "react-icons/si";
 import { DiDjango } from "react-icons/di";
+import { FaDiscord } from "react-icons/fa";
 import gsap from "gsap";
 import ScrollTrigger from "gsap/ScrollTrigger";
+import { FaGithub } from "react-icons/fa";
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -81,6 +85,12 @@ function Sec1() {
           <div className="box-mrq">
             <FaBootstrap />
           </div>
+          <div className="box-mrq">
+          <SiIntellijidea />
+          </div>
+          <div className="box-mrq">
+          <AiOutlineDotNet />
+          </div>  
         </Marquee>
       </div>
       <div className="marq1">
@@ -115,6 +125,13 @@ function Sec1() {
           <div className="box-mrq">
             <DiDjango />
           </div>
+          <div className="box-mrq">
+          <FaGithub />
+          </div>
+          <div className="box-mrq">
+          <FaDiscord />
+          </div>
+       
         </Marquee>
       </div>
     </div>
