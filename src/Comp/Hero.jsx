@@ -6,6 +6,7 @@ import gsap from 'gsap';
 import Sec2 from './Sec2';
 import Sec3 from './Sec3';
 import Sec4 from './Sec4';
+import Footer from '../Footer';
 
 function Hero() {
 
@@ -14,59 +15,61 @@ function Hero() {
 
         t1.from(".logo , .ann", {
             y: -50,
-            opacity: 0, 
-            stagger:0.2,
+            opacity: 0,
+            stagger: 0.2,
         });
 
 
-        t1.from(".main-hero .pic-cir ",{
-            x:300,
-            opacity:0,
-            rotate:360,
+        t1.from(".main-hero .pic-cir ", {
+            x: 300,
+            opacity: 0,
+            rotate: 360,
 
         })
 
-        t1.from(".main-hero  p ,.main-hero h1 ",{
-            x:300,
-            opacity:0,
-            stagger:0.2,
+        t1.from(".main-hero  p ,.main-hero h1 ", {
+            x: 300,
+            opacity: 0,
+            stagger: 0.2,
         })
 
 
-        t1.from(".main-hero .button",{
-            y:100,
-            opacity:0,
+        t1.from(".main-hero .button", {
+            y: 100,
+            opacity: 0,
         })
 
 
-    }, []);  
+    }, []);
 
     return (
         <>
             <div className="hero-background hero">
                 <div className="hero-gradient"></div>
                 <div className="hero-gradient2"></div>
-                <Navb />
+                <div className="div">
+                    <Navb />
 
-                <div className="main-hero">
-                    <div className="pic-cir">
+                    <div className="main-hero">
+                        <div className="pic-cir">
+
+                        </div>
+                        <p>Hi, I am Evie 👋🏻 </p>
+                        <h1>Building digital products, web pages, Discord servers, and Fresher xd</h1>
+
+                        <button className="button">
+                            <span className="button-content">Let's give it a shot <PiArrowCircleUpRightDuotone className='arrow' /> </span>
+                        </button>
 
                     </div>
-                    <p>Hi, I am Evie 👋🏻 </p>
-                    <h1>Building digital products, web pages, Discord servers, and Fresher xd</h1>
-
-                    <button className="button">
-                        <span className="button-content">Let's give it a shot <PiArrowCircleUpRightDuotone className='arrow' /> </span>
-                    </button>
-
+                    <Sec1 />
+                    <Sec2 />
+                    <Sec3 />
+                    <Sec4 />
                 </div>
-                <Sec1 />
-                <Sec2/>
-                <Sec3/>
-                <Sec4/>
-
-
+                <Footer />
             </div>
+         
         </>
     );
 }
