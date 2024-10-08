@@ -413,6 +413,7 @@ height: 100%;}
 
   .main-hero , .sec2 , .sec3{
     padding: 20px;
+    overflow: hidden;
   }
 
   .pro-box{
@@ -446,5 +447,36 @@ height: 100%;}
   .btm1 h1{
     font-size: 40px;
   }
+
+
+}
+
+@media screen and (min-width:601px) and (max-width:1024px) {
+
+  .bottom-sec2{
+    flex-direction: column;
+  }
+
+
+  .main-hero h1{
+    width: 90%;
+  }
+
+  .sec2 , .sec3{
+    padding: 0px;
+  }
+
+  .pro-box{
+    margin-top: 20px;
+  }
+
+  .bottom-sec4{
+    padding: 30px 50px;
+  }
+
+  .hero{
+    padding: 20px 50px;
+  }
+
 
 }
