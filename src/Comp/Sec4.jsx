@@ -82,7 +82,7 @@ function Sec4() {
                     <p>   Join us to be part of an engaging and supportive developer community!</p>
                     <div className="bttt">
                         <button className="button">
-                            <span className="button-content">Join us on <FaDiscord className='arrow' /> </span>
+                            <span className="button-content"> <a href="https://discord.gg/impic" target='_blank'>Join us on <FaDiscord className='arrow' /> </a> </span>
                         </button>
                     </div>
 

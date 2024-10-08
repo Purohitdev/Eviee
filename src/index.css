@@ -382,6 +382,7 @@ height: 100%;}
   font-family: "Signika Negative", sans-serif;
   color: white;
   font-size: 19px;
+  font-weight: 300;
 }
 
 .bttt{
@@ -389,4 +390,61 @@ height: 100%;}
   align-items: center;
   justify-content: center;
   margin-top: 20px;
+}
+
+.bttt a{
+  color: whitesmoke;
+  text-decoration: none;
+}
+
+
+
+
+
+@media screen and (min-width:0px) and (max-width:600px) {
+
+  .bottom-sec2{
+    flex-direction: column;
+  }
+
+  .hero-background{
+    padding: 20px;
+  }
+
+  .main-hero , .sec2 , .sec3{
+    padding: 20px;
+  }
+
+  .pro-box{
+    margin-top: 20px;
+  }
+
+  .bottom-sec4{
+    padding: 40px;
+  }
+
+  .bottom-sec4 p{
+    text-align: center;
+    margin-top: 10px;
+    font-size: 14px;
+  }
+
+  .main-hero h1{
+    width: 80%;
+  }
+
+  .btm1 h1:nth-child(1){
+    margin: 0px;
+  }
+
+  .btm1{
+    flex-direction: column;
+    margin-top: 80px;
+    margin-bottom: 20px;
+  }
+
+  .btm1 h1{
+    font-size: 40px;
+  }
+
 }
