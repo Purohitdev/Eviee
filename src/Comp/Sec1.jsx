@@ -23,6 +23,8 @@ import { AiOutlineDotNet } from "react-icons/ai";
 import { SiCanva } from "react-icons/si";
 import { DiDjango } from "react-icons/di";
 import { FaDiscord } from "react-icons/fa";
+import { FaRedditSquare } from "react-icons/fa";
+import { FaGolang } from "react-icons/fa6";
 import gsap from "gsap";
 import ScrollTrigger from "gsap/ScrollTrigger";
 import { FaGithub } from "react-icons/fa";
@@ -91,6 +93,9 @@ function Sec1() {
           <div className="box-mrq">
           <AiOutlineDotNet />
           </div>  
+          <div className="box-mrq">
+          <FaGolang />
+          </div>  
         </Marquee>
       </div>
       <div className="marq1">
@@ -131,6 +136,9 @@ function Sec1() {
           <div className="box-mrq">
           <FaDiscord />
           </div>
+          <div className="box-mrq">
+          <FaRedditSquare />
+          </div>  
        
         </Marquee>
       </div>
