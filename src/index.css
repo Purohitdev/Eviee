@@ -513,7 +513,7 @@ p {
   }
 
   .hero-background {
-    padding: 20px;
+    padding: 0px;
   }
 
   .main-hero,
@@ -556,7 +556,7 @@ p {
   }
 
   .div{
-    padding: 0px;
+    padding: 20px;
   }
 
   .footer{
