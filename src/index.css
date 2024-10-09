@@ -501,6 +501,34 @@ p {
 
 }
 
+.mid-foot a{
+  color: whitesmoke;
+}
+
+/*  */
+
+.try {
+  position: relative;
+  overflow: hidden;
+  padding-bottom: 2px;
+  width: min-content;
+
+}
+
+.try::after{
+  content: "";
+  display: block;
+  height: 2px;
+  width:auto;
+  background-color: #ffffff8b;
+  transform: scale(0);
+  transform-origin: left;
+  transition: transform 0.3s  ease-in;
+}
+
+ .try:hover::after{
+  transform: scale(1);
+}
 
 
 

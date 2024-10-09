@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React, { useEffect, useRef } from 'react';
 import Navb from '../Navb';
 import { PiArrowCircleUpRightDuotone } from "react-icons/pi";
 import Sec1 from './Sec1';
@@ -9,6 +9,7 @@ import Sec4 from './Sec4';
 import Footer from '../Footer';
 
 function Hero() {
+    const footerRef = useRef(null); // Create a reference for Footer
 
     useEffect(() => {
         const t1 = gsap.timeline();
@@ -19,28 +20,32 @@ function Hero() {
             stagger: 0.2,
         });
 
-
-        t1.from(".main-hero .pic-cir ", {
+        t1.from(".main-hero .pic-cir", {
             x: 300,
             opacity: 0,
             rotate: 360,
+        });
 
-        })
-
-        t1.from(".main-hero  p ,.main-hero h1 ", {
+        t1.from(".main-hero p, .main-hero h1", {
             x: 300,
             opacity: 0,
             stagger: 0.2,
-        })
-
+        });
 
         t1.from(".main-hero .button", {
             y: 100,
             opacity: 0,
-        })
-
-
+        });
     }, []);
+
+    const scrollToFooter = () => {
+        if (footerRef.current) {
+            footerRef.current.scrollIntoView({
+                behavior: 'smooth',
+                block: 'start', // Adjust the block position
+            });
+        }
+    };
 
     return (
         <>
@@ -51,25 +56,25 @@ function Hero() {
                     <Navb />
 
                     <div className="main-hero">
-                        <div className="pic-cir">
-
-                        </div>
-                        <p>Hi, I am Evie 👋🏻 </p>
+                        <div className="pic-cir"></div>
+                        <p>Hi, I am Evie 👋🏻</p>
                         <h1>Building digital products, web pages, Discord servers, and Fresher xd</h1>
 
-                        <button className="button">
-                            <span className="button-content">Let's give it a shot <PiArrowCircleUpRightDuotone className='arrow' /> </span>
+                        <button className="button" onClick={scrollToFooter}>
+                            <span className="button-content">Let's give it a shot <PiArrowCircleUpRightDuotone className='arrow' /></span>
                         </button>
-
                     </div>
                     <Sec1 />
                     <Sec2 />
                     <Sec3 />
                     <Sec4 />
                 </div>
-                <Footer />
+
+                {/* Add a wrapper to ensure the footer is at the bottom */}
+                <div ref={footerRef}>
+                    <Footer />
+                </div>
             </div>
-         
         </>
     );
 }

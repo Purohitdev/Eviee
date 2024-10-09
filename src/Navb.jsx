@@ -12,11 +12,11 @@ function Navb() {
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="ms-auto">
-                        <a href="" target='_blank' className='nav-link ann'>Linkedin</a>
+                        <a href="https://www.linkedin.com/in/arya-shendge-011a11328/" target='_blank' className='nav-link ann try '>Linkedin</a>
                         <Nav.Link className='nav-link'>/</Nav.Link>
-                        <a href="" target='_blank'className='nav-link ann'>Discord</a>
+                        <a href="https://www.community.impic.tech/" target='_blank'className='nav-link ann try '>Discord</a>
                         <Nav.Link className='nav-link'>/</Nav.Link>
-                        <a href="" target='_blank'  className='nav-link ann'>Instagram</a>
+                        <a href="https://github.com/aryaaaaaS" target='_blank'  className='nav-link ann try '>Github</a>
 
 
                     </Nav>
