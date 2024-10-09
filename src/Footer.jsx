@@ -1,10 +1,12 @@
 import React, { useEffect } from 'react';
 import { PiHandshakeDuotone } from "react-icons/pi";
-import { HiOutlineMail } from "react-icons/hi";
+import { IoMdMail } from "react-icons/io";
 import Nav from 'react-bootstrap/Nav';
 import gsap from "gsap";
 import ScrollTrigger from "gsap/ScrollTrigger";
 gsap.registerPlugin(ScrollTrigger);
+import { IoLogoWhatsapp } from "react-icons/io";
+
 
 
 
@@ -54,10 +56,10 @@ function Footer() {
                     <h1 className='lll'>Tell me about your next  <br />  project</h1>
                     <div className="butttt">
                         <button className="button">
-                            <span className="button-content"> <a href="mailto:aryaaakiran8106@gmail.com" target='_blank' > <p>Email me <HiOutlineMail /></p> </a> </span>
+                            <span className="button-content"> <a href="mailto:aryaaakiran8106@gmail.com" target='_blank' > <p>Email me <IoMdMail /> </p> </a> </span>
                         </button>
                         <button className="button">
-                            <span className="button-content"> <a href="https://wa.me/8108674893?text=hy" target='_blank'>  <p>Whatapp </p> </a>  </span>
+                            <span className="button-content"> <a href="https://wa.me/8108674893?text=hy" target='_blank'>  <p>Whatapp  <IoLogoWhatsapp /></p> </a>  </span>
                         </button>
 
                     </div>

@@ -3,6 +3,8 @@ import { CgWebsite } from "react-icons/cg";
 import { FaDiscord } from "react-icons/fa";
 import { FaDatabase } from "react-icons/fa";
 import { TiDeviceDesktop } from "react-icons/ti";
+import { CiCoinInsert } from "react-icons/ci";
+
 import gsap from "gsap";
 import ScrollTrigger from "gsap/ScrollTrigger";
 gsap.registerPlugin(ScrollTrigger);
@@ -57,7 +59,7 @@ function Sec2() {
 
             <div className="button-div">
                 <div className="but">
-                    Service
+                    Service <CiCoinInsert />
                 </div>
             </div>
 

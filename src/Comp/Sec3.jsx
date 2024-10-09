@@ -1,6 +1,7 @@
 import React, { useEffect } from 'react';
 import { Col, Container, Row } from 'react-bootstrap'
 import gsap from "gsap";
+import { PiProjectorScreenChartDuotone } from "react-icons/pi";
 import ScrollTrigger from "gsap/ScrollTrigger";
 gsap.registerPlugin(ScrollTrigger);
 
@@ -46,7 +47,7 @@ function Sec3() {
       <hr />
       <div className="button-div">
         <div className="but1">
-          Projects
+          Projects <PiProjectorScreenChartDuotone />
         </div>
       </div>
       <div className="bottom-sec3">

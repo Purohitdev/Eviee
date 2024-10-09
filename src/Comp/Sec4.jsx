@@ -1,5 +1,6 @@
 import React, { useEffect } from 'react';
 import { FaDiscord } from "react-icons/fa";
+import { RiCommunityFill } from "react-icons/ri";
 import gsap from "gsap";
 import ScrollTrigger from "gsap/ScrollTrigger";
 gsap.registerPlugin(ScrollTrigger);
@@ -61,7 +62,7 @@ function Sec4() {
             <hr />
             <div className="button-div">
                 <div className="but2">
-                    Community
+                    Community <RiCommunityFill />
                 </div>
             </div>
             <div className="btm-sec3">

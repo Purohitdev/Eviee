@@ -413,6 +413,13 @@ p {
   padding: 40px;
 }
 
+/* .ms-auto a{
+  display: flex;
+  align-items: center;
+  gap: 2px;
+  font-size: 22px;
+} */
+
 .top-foot {
   width: 100%;
   height: 30%;
