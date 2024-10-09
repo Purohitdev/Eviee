@@ -84,6 +84,9 @@ function Sec4() {
                         <button className="button">
                             <span className="button-content"> <a href="https://discord.gg/impic" target='_blank'>Join us on <FaDiscord className='arrow' /> </a> </span>
                         </button>
+                        <button className="button">
+                            <span className="button-content"> <a href="https://www.community.impic.tech/" target='_blank'>About our  <FaDiscord className='arrow' /> </a> </span>
+                        </button>
                     </div>
 
                 </div>
