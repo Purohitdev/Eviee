@@ -729,6 +729,10 @@ svg {
     gap: 10px;
   }
 
+  .pro-box{
+    height: 230px;
+  }
+
 
 }
 
