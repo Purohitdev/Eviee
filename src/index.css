@@ -259,7 +259,7 @@ p {
 
 .top-sec2,
 .top-sec3,
-.top-sec4 {
+.top-sec4, .top-about {
   text-align: center;
   font-family: "Protest Strike", sans-serif;
   font-weight: 500;
@@ -268,15 +268,24 @@ p {
   margin-bottom: 30px;
 }
 
+.nav a{
+  color: rgba(245, 245, 245, 0.603);
+  text-decoration: none;
+}
+
 .sec2,
 .sec3,
-.sec4 hr {
+.sec4 ,.about hr {
   color: whitesmoke;
+}
+
+.about{
+  padding: 100px 0px;
 }
 
 .but,
 .but1,
-.but2 {
+.but2 , .but4 {
   padding: 10px 40px;
   width: fit-content;
   border-radius: 30px;
@@ -284,7 +293,6 @@ p {
   color: white;
   font-family: "Signika Negative", sans-serif;
   box-shadow: rgba(255, 255, 255, 0.25) 0px 25px 50px -12px;
-  transform: rotate(-10deg);
   margin-top: -40px;
 
 }
@@ -296,12 +304,30 @@ p {
 }
 
 .box-det {
-  height: 100%;
+  height: 280px;
   width: 100%;
-  padding: 20px 10px;
+  padding: 25px 20px;
   text-align: start;
+  border: 1px solid rgba(255, 255, 255, 0.401);
+  border-radius: 30px;
+}
+.box-det:hover{
+  background-color: rgba(255, 255, 255, 0.218);
+  transition: 1s all;
 }
 
+.icon-box:hover{
+  transform: translateY(-10px);
+  box-shadow: rgba(0, 0, 0, 0.457) 0px 25px 50px -12px;
+  border:1px solid rgba(245, 245, 245, 0.83);
+  background-color: rgba(0, 0, 0, 0.518);
+  border-radius: 10px;
+
+}
+
+.icon-box a{
+  color: whitesmoke;
+}
 
 .bottom-sec2 {
   display: flex;
@@ -346,8 +372,16 @@ p {
   border-radius: 20px;
 }
 
-.bottom-sec3 {
+.bottom-sec3 , .btm-about {
   padding: 60px 0px;
+}
+
+.btm-about p{
+  font-family: "Signika Negative", sans-serif;
+  color: whitesmoke;
+  width: 60%;
+  text-align: center;
+
 }
 
 .row {
@@ -366,6 +400,43 @@ p {
   color: white;
   margin-top: 40px;
   justify-content: center;
+}
+
+ .btm-about{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+ }
+
+ .nav ul{
+  display: flex;
+  gap: 20px;
+  list-style-type: none;
+  align-items: center;
+  margin: 0px;
+ }
+
+ .nav li{
+  color: rgba(245, 245, 245, 0.603);
+  margin: 0px;
+ }
+
+.icon-box {
+  height: 50px;
+  width: 50px;
+  border:1px solid rgba(245, 245, 245, 0.575);
+  background-color:rgba(0, 0, 0, 0.183);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: whitesmoke;
+
+}
+
+.icon-box-ft {
+  display: flex;
+  gap: 20px;
 }
 
 .btm1 h1 {
@@ -442,7 +513,7 @@ p {
 
 }
 
-.mid-foot{
+.mid-foot {
   width: 100%;
   height: auto;
   margin-top: 10px;
@@ -453,44 +524,47 @@ p {
 
 }
 
-.mid-foot .lll{
+.mid-foot .lll {
   font-size: 52px;
   line-height: 0.9;
   margin-top: 20px;
 }
 
-.mid-foot p{
+.mid-foot p {
   font-size: 12px;
   font-family: "Signika Negative", sans-serif;
 
 }
 
-.mid-foot img, svg{
+.mid-foot img,
+svg {
   margin-top: -2px;
 }
-.hand{
+
+.hand {
   font-size: 86px;
 
 }
 
-.butttt{
+.butttt {
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 20px;
 }
 
-.btm-foot{
+.btm-foot {
   border-top: 1px solid rgba(250, 250, 250, 0.356);
-  height:10vh;
+  height: 10vh;
   margin-top: 10vh;
   display: flex;
   align-items: center;
+  justify-content: space-between;
   padding: 0px 10px;
 
 }
 
-.btm-foot h1{
+.btm-foot h1 {
   font-family: "Protest Strike", sans-serif;
   font-size: 18px;
   margin: 0px;
@@ -498,18 +572,18 @@ p {
 
 }
 
-.footer .nav-link{
+.footer .nav-link {
   color: whitesmoke;
   margin: 0px;
   padding: 6px;
 }
 
-.footer .button{
+.footer .button {
   box-shadow: rgba(0, 0, 0, 0.457) 0px 25px 50px -12px;
 
 }
 
-.mid-foot a{
+.mid-foot a {
   color: whitesmoke;
 }
 
@@ -523,18 +597,18 @@ p {
 
 }
 
-.try::after{
+.try::after {
   content: "";
   display: block;
   height: 2px;
-  width:auto;
+  width: auto;
   background-color: #ffffff8b;
   transform: scale(0);
   transform-origin: left;
-  transition: transform 0.3s  ease-in;
+  transition: transform 0.3s ease-in;
 }
 
- .try:hover::after{
+.try:hover::after {
   transform: scale(1);
 }
 
@@ -591,25 +665,27 @@ p {
     font-size: 40px;
   }
 
-  .div{
+  .div {
     padding: 20px;
   }
 
-  .footer{
+  .footer {
     height: 100%;
   }
 
-  .btm-foot{
+  .btm-foot {
     flex-direction: column;
   }
-  .footer .nav-link{
+
+  .footer .nav-link {
     padding: 4px;
   }
-  .btm-foot h1{
+
+  .btm-foot h1 {
     padding-top: 10px;
   }
 
-  .mid-foot .lll{
+  .mid-foot .lll {
     font-size: 44px;
   }
 
@@ -644,16 +720,16 @@ p {
     padding: 20px 50px;
   }
 
-  .btm-foot{
+  .btm-foot {
     margin-top: 5vh;
   }
 
-  .hero{
+  .hero {
     padding-bottom: 3px;
   }
 
 
-  .div{
+  .div {
     padding: 0px;
   }
 

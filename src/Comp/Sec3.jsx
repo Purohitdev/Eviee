@@ -40,7 +40,7 @@ function Sec3() {
   }, []);
 
   return (
-    <div className="sec3">
+    <div className="sec3" id='Project'>
       <div className="top-sec3">
         <h1>Dive into my creations: A showcase  of  innovation , <br /> design, and code mastery!</h1>
       </div>

@@ -7,6 +7,7 @@ import Sec2 from './Sec2';
 import Sec3 from './Sec3';
 import Sec4 from './Sec4';
 import Footer from '../Footer';
+import About from './About';
 
 function Hero() {
     const footerRef = useRef(null); // Create a reference for Footer
@@ -49,7 +50,7 @@ function Hero() {
 
     return (
         <>
-            <div className="hero-background hero">
+            <div className="hero-background hero" id="Hero">
                 <div className="hero-gradient"></div>
                 <div className="hero-gradient2"></div>
                 <div className="div">
@@ -65,6 +66,7 @@ function Hero() {
                         </button>
                     </div>
                     <Sec1 />
+                    <About/>
                     <Sec2 />
                     <Sec3 />
                     <Sec4 />

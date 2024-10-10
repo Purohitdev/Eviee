@@ -51,7 +51,7 @@ function Sec2() {
 
 
     return (
-        <div className="sec2">
+        <div className="sec2"  id="Service">
             <div className="top-sec2">
                 <h1>Collaborate with brands and agencies <br /> to create impactful results.</h1>
             </div>

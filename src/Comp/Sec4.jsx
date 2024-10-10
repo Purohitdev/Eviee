@@ -55,7 +55,7 @@ function Sec4() {
 
 
     return (
-        <div className="sec4">
+        <div className="sec4" id='Community'>
             <div className="top-sec4 ">
                 <h1>Welcome to my community, Impic, on Discord!  <br />I'm the admin and designer of this server.</h1>
             </div>
