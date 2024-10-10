@@ -58,7 +58,7 @@ function Hero() {
 
                     <div className="main-hero">
                         <div className="pic-cir"></div>
-                        <p>Hi, I am Evie 👋🏻</p>
+                        <p>Hi, I am Aryaa 👋🏻</p>
                         <h1>Building digital products, web pages, Discord servers, and Fresher xd</h1>
 
                         <button className="button" onClick={scrollToFooter}>
