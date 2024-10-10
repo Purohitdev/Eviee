@@ -259,7 +259,8 @@ p {
 
 .top-sec2,
 .top-sec3,
-.top-sec4, .top-about {
+.top-sec4,
+.top-about {
   text-align: center;
   font-family: "Protest Strike", sans-serif;
   font-weight: 500;
@@ -268,24 +269,26 @@ p {
   margin-bottom: 30px;
 }
 
-.nav a{
+.nav a {
   color: rgba(245, 245, 245, 0.603);
   text-decoration: none;
 }
 
 .sec2,
 .sec3,
-.sec4 ,.about hr {
+.sec4,
+.about hr {
   color: whitesmoke;
 }
 
-.about{
+.about {
   padding: 100px 0px;
 }
 
 .but,
 .but1,
-.but2 , .but4 {
+.but2,
+.but4 {
   padding: 10px 40px;
   width: fit-content;
   border-radius: 30px;
@@ -311,21 +314,22 @@ p {
   border: 1px solid rgba(255, 255, 255, 0.401);
   border-radius: 30px;
 }
-.box-det:hover{
+
+.box-det:hover {
   background-color: rgba(255, 255, 255, 0.218);
   transition: 1s all;
 }
 
-.icon-box:hover{
+.icon-box:hover {
   transform: translateY(-10px);
   box-shadow: rgba(0, 0, 0, 0.457) 0px 25px 50px -12px;
-  border:1px solid rgba(245, 245, 245, 0.83);
+  border: 1px solid rgba(245, 245, 245, 0.83);
   background-color: rgba(0, 0, 0, 0.518);
   border-radius: 10px;
 
 }
 
-.icon-box a{
+.icon-box a {
   color: whitesmoke;
 }
 
@@ -372,11 +376,12 @@ p {
   border-radius: 20px;
 }
 
-.bottom-sec3 , .btm-about {
+.bottom-sec3,
+.btm-about {
   padding: 60px 0px;
 }
 
-.btm-about p{
+.btm-about p {
   font-family: "Signika Negative", sans-serif;
   color: whitesmoke;
   width: 60%;
@@ -402,31 +407,31 @@ p {
   justify-content: center;
 }
 
- .btm-about{
+.btm-about {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
- }
+}
 
- .nav ul{
+.nav ul {
   display: flex;
   gap: 20px;
   list-style-type: none;
   align-items: center;
   margin: 0px;
- }
+}
 
- .nav li{
+.nav li {
   color: rgba(245, 245, 245, 0.603);
   margin: 0px;
- }
+}
 
 .icon-box {
   height: 50px;
   width: 50px;
-  border:1px solid rgba(245, 245, 245, 0.575);
-  background-color:rgba(0, 0, 0, 0.183);
+  border: 1px solid rgba(245, 245, 245, 0.575);
+  background-color: rgba(0, 0, 0, 0.183);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -687,6 +692,14 @@ svg {
 
   .mid-foot .lll {
     font-size: 44px;
+  }
+
+  .btm-about p {
+    width: 100%;
+  }
+
+  .about {
+    margin: 20px 0px;
   }
 
 
