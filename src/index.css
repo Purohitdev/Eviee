@@ -374,12 +374,18 @@ p {
   width: 100%;
   border: 1px solid white;
   border-radius: 20px;
+  overflow: hidden;
+
+}
+
+.in-box img{
+  height: 100%;
+  width: 100%;
 }
 
 .in-box{
-  height: 300px;
+  height:100%;
   width: 100%;
-  border: 1px solid white;
 }
 
 .bottom-sec3,

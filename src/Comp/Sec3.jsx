@@ -1,9 +1,8 @@
 import React, { useEffect } from 'react';
 import { Col, Container, Row } from 'react-bootstrap'
-import p1 from "../assets/pokie"
-import p2 from "../assets/word"
-import p3 from "../assets/net"
-
+import p1 from "../assets/pokie.png";
+import p2 from "../assets/word.png";
+import p3 from "../assets/net.png";
 import gsap from "gsap";
 import { PiProjectorScreenChartDuotone } from "react-icons/pi";
 import ScrollTrigger from "gsap/ScrollTrigger";
@@ -37,7 +36,7 @@ function Sec3() {
     t4.from(".pro-box", {
       x: 50,
       opacity: 0,
-      stagger:0.2,
+      stagger: 0.2,
 
     })
 
@@ -60,36 +59,44 @@ function Sec3() {
           <Row>
             <Col lg={6}>
               <div className="pro-box">
-                <div className="in-box">
-                  <img src={p1} alt="" srcset="" />
+                <a href="https://pokidex-drab.vercel.app/" target='_blank'>
+                  <div className="in-box">
+                    <img src={p1} alt="" srcset="" />
 
-                </div>
+
+
+                  </div>
+                </a>
 
               </div>
             </Col>
             <Col lg={6}>
               <div className="pro-box">
-              <div className="in-box">
-                  <img src={p2} alt="" srcset="" />
+                <a href="https://typingame-sage.vercel.app/" target='_blank'>
+                  <div className="in-box">
+                    <img src={p2} alt="" srcset="" />
 
-                </div>
-                
+                  </div>
+                </a>
+
               </div>
             </Col>
           </Row>
           <Row>
             <Col lg={6}>
               <div className="pro-box">
-              <div className="in-box">
-                  <img src={p3} alt="" srcset="" />
+                <a href="https://netflix-homepage-sepia.vercel.app/" target='_blank'> 
+                  <div className="in-box">
+                    <img src={p3} alt="" srcset="" />
 
-                </div>
+                  </div>
+                </a>
 
               </div>
             </Col>
             <Col lg={6}>
               <div className="pro-box">
-                
+
               </div>
             </Col>
           </Row>
