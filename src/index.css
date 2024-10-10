@@ -370,10 +370,16 @@ p {
 }
 
 .pro-box {
-  height: 300px;
+  height: 400px;
   width: 100%;
   border: 1px solid white;
   border-radius: 20px;
+}
+
+.in-box{
+  height: 300px;
+  width: 100%;
+  border: 1px solid white;
 }
 
 .bottom-sec3,

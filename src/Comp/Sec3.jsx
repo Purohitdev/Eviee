@@ -1,5 +1,9 @@
 import React, { useEffect } from 'react';
 import { Col, Container, Row } from 'react-bootstrap'
+import p1 from "../assets/pokie"
+import p2 from "../assets/word"
+import p3 from "../assets/net"
+
 import gsap from "gsap";
 import { PiProjectorScreenChartDuotone } from "react-icons/pi";
 import ScrollTrigger from "gsap/ScrollTrigger";
@@ -56,11 +60,19 @@ function Sec3() {
           <Row>
             <Col lg={6}>
               <div className="pro-box">
+                <div className="in-box">
+                  <img src={p1} alt="" srcset="" />
+
+                </div>
 
               </div>
             </Col>
             <Col lg={6}>
               <div className="pro-box">
+              <div className="in-box">
+                  <img src={p2} alt="" srcset="" />
+
+                </div>
                 
               </div>
             </Col>
@@ -68,6 +80,10 @@ function Sec3() {
           <Row>
             <Col lg={6}>
               <div className="pro-box">
+              <div className="in-box">
+                  <img src={p3} alt="" srcset="" />
+
+                </div>
 
               </div>
             </Col>
