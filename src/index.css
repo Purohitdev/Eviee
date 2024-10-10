@@ -713,6 +713,9 @@ svg {
   .nav ul{
     padding: 0px;
   }
+  .nav ul{
+    gap: 10px;
+  }
 
 
 }
