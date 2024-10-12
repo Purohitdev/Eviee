@@ -318,6 +318,7 @@ p {
 .box-det:hover {
   background-color: rgba(255, 255, 255, 0.218);
   transition: 1s all;
+  box-shadow: rgb(255, 255, 255) 5px 5px 5px;
 }
 
 .icon-box:hover {
@@ -627,6 +628,12 @@ svg {
 
 .try:hover::after {
   transform: scale(1);
+}
+
+.icon-box-ft p{
+  color: rgba(245, 245, 245, 0.307);
+  transform: translateY(50px);
+  margin-left: -100px;
 }
 
 
