@@ -4,6 +4,7 @@ import p1 from "../assets/pokie.png";
 import p2 from "../assets/word.png";
 import p3 from "../assets/net.png";
 import p4 from "../assets/arya.png";
+import p5 from "../assets/crud.png"
 import gsap from "gsap";
 import { PiProjectorScreenChartDuotone } from "react-icons/pi";
 import ScrollTrigger from "gsap/ScrollTrigger";
@@ -85,8 +86,8 @@ function Sec3() {
 
                   </div>
                   <div className="img-det">
-                  <h1>2 // typing game</h1>
-                  <p>~ html-css</p>
+                    <h1>2 // typing game</h1>
+                    <p>~ html-css</p>
 
 
 
@@ -105,8 +106,8 @@ function Sec3() {
 
                   </div>
                   <div className="img-det">
-                  <h1>3 // Netflix</h1>
-                  <p>~ html-css</p>
+                    <h1>3 // Netflix</h1>
+                    <p>~ html-css</p>
 
 
 
@@ -124,8 +125,8 @@ function Sec3() {
 
                   </div>
                   <div className="img-det">
-                  <h1>4 // Potfolio</h1>
-                  <p>~ html-css</p>
+                    <h1>4 // Potfolio</h1>
+                    <p>~ html-css</p>
 
 
 
@@ -135,6 +136,28 @@ function Sec3() {
               </div>
             </Col>
           </Row>
+          <Row>
+            <Col lg={6}>
+              <div className="pro-box">
+                <a href="https://crud-two-rho.vercel.app/" target='_blank'>
+                  <div className="in-box">
+                    <img src={p5} alt="" srcset="" />
+
+                  </div>
+                  <div className="img-det">
+                    <h1>5 // CRUD App</h1>
+                    <p>~ html-css</p>
+
+
+
+                  </div>
+                </a>
+
+              </div>
+            </Col>
+
+          </Row>
+
         </Container>
 
 
