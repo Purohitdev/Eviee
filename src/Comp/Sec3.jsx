@@ -3,6 +3,7 @@ import { Col, Container, Row } from 'react-bootstrap'
 import p1 from "../assets/pokie.png";
 import p2 from "../assets/word.png";
 import p3 from "../assets/net.png";
+import p4 from "../assets/arya.png";
 import gsap from "gsap";
 import { PiProjectorScreenChartDuotone } from "react-icons/pi";
 import ScrollTrigger from "gsap/ScrollTrigger";
@@ -66,6 +67,12 @@ function Sec3() {
 
 
                   </div>
+                  <div className="img-det">
+                    <h1>1 // Pokidex</h1>
+                    <p>~ html-css</p>
+
+                  </div>
+
                 </a>
 
               </div>
@@ -77,6 +84,13 @@ function Sec3() {
                     <img src={p2} alt="" srcset="" />
 
                   </div>
+                  <div className="img-det">
+                  <h1>2 // typing game</h1>
+                  <p>~ html-css</p>
+
+
+
+                  </div>
                 </a>
 
               </div>
@@ -85,9 +99,17 @@ function Sec3() {
           <Row>
             <Col lg={6}>
               <div className="pro-box">
-                <a href="https://netflix-homepage-sepia.vercel.app/" target='_blank'> 
+                <a href="https://netflix-homepage-sepia.vercel.app/" target='_blank'>
                   <div className="in-box">
                     <img src={p3} alt="" srcset="" />
+
+                  </div>
+                  <div className="img-det">
+                  <h1>3 // Netflix</h1>
+                  <p>~ html-css</p>
+
+
+
 
                   </div>
                 </a>
@@ -96,6 +118,19 @@ function Sec3() {
             </Col>
             <Col lg={6}>
               <div className="pro-box">
+                <a href="https://arya.impic.tech/" target='_blank'>
+                  <div className="in-box">
+                    <img src={p4} alt="" srcset="" />
+
+                  </div>
+                  <div className="img-det">
+                  <h1>4 // Potfolio</h1>
+                  <p>~ html-css</p>
+
+
+
+                  </div>
+                </a>
 
               </div>
             </Col>

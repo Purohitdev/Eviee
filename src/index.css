@@ -371,22 +371,50 @@ p {
 }
 
 .pro-box {
-  height: 300px;
+  height: 400px;
   width: 100%;
-  border: 1px solid white;
+  border: 1px solid rgba(255, 255, 255, 0.48);
   border-radius: 20px;
   overflow: hidden;
 
 }
 
-.in-box img{
+.in-box img {
   height: 100%;
   width: 100%;
 }
 
-.in-box{
-  height:100%;
+.in-box {
+  height: 70%;
   width: 100%;
+}
+
+.img-det{
+  height: 30%;
+  width: 100%;
+}
+
+.img-det p{
+  text-align: left !important;
+  font-family: "Signika Negative", sans-serif;
+
+
+}
+
+.img-det{
+  padding: 20px;
+}
+
+.pro-box h1{
+  font-size: 18px;
+  color: white;
+  font-family: "Protest Strike", sans-serif;
+
+}
+
+.pro-box a{
+  color: white; 
+  text-decoration: none;
 }
 
 .bottom-sec3,
@@ -630,11 +658,15 @@ svg {
   transform: scale(1);
 }
 
-.icon-box-ft p{
+.icon-box-ft p {
   color: rgba(245, 245, 245, 0.307);
   transform: translateY(50px);
   margin-left: -100px;
 }
+
+.pro-box:hover {
+  box-shadow: rgba(247, 246, 246, 0.16) 0px 20px 46px 10px, rgba(249, 248, 248, 0.06) 10px 10px 10px 11px;}
+
 
 
 
@@ -661,6 +693,7 @@ svg {
     margin-top: 20px;
   }
 
+ 
   .bottom-sec4 {
     padding: 40px;
   }
@@ -721,22 +754,23 @@ svg {
     padding: 20px 0px;
   }
 
-  .icon-box-ft{
+  .icon-box-ft {
     margin-top: 10px;
   }
 
-  .btm-about{
+  .btm-about {
     padding: 30px 0px;
   }
 
-  .nav ul{
+  .nav ul {
     padding: 0px;
   }
-  .nav ul{
+
+  .nav ul {
     gap: 10px;
   }
 
-  .pro-box{
+  .pro-box {
     height: 230px;
   }
 
