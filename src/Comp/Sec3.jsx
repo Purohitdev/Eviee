@@ -5,6 +5,7 @@ import p2 from "../assets/word.png";
 import p3 from "../assets/net.png";
 import p4 from "../assets/arya.png";
 import p5 from "../assets/crud.png"
+import p6 from "../assets/watch.png"
 import gsap from "gsap";
 import { PiProjectorScreenChartDuotone } from "react-icons/pi";
 import ScrollTrigger from "gsap/ScrollTrigger";
@@ -146,6 +147,24 @@ function Sec3() {
                   </div>
                   <div className="img-det">
                     <h1>5 // CRUD App</h1>
+                    <p>~ html-css</p>
+
+
+
+                  </div>
+                </a>
+
+              </div>
+            </Col>
+            <Col lg={6}>
+              <div className="pro-box">
+                <a href="https://watchify-lake.vercel.app/" target='_blank'>
+                  <div className="in-box">
+                    <img src={p6} alt="" srcset="" />
+
+                  </div>
+                  <div className="img-det">
+                    <h1>6 // Watchify</h1>
                     <p>~ html-css</p>
 
 
