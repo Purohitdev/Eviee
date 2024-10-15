@@ -58,8 +58,9 @@ function Hero() {
 
                     <div className="main-hero">
                         <div className="pic-cir"></div>
-                        <p>Hi, I am Aryaa 👋🏻</p>
-                        <h1>Building digital products, web pages, Discord servers, and Fresher xd</h1>
+                        <p className='ppppp'>Hi, I am Aryaa 👋🏻</p>
+                        {/* <h1>Building digital products, web pages, Discord servers, and Fresher xd</h1> */}
+                        <h1>Cricketer, Tech Enthusiast, Web Dev, Data Analyst, Discord Bot Designer  </h1> 
 
                         <button className="button" onClick={scrollToFooter}>
                             <span className="button-content">Let's give it a shot <PiArrowCircleUpRightDuotone className='arrow' /></span>

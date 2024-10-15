@@ -146,7 +146,7 @@ p {
   width: 130px;
   border-radius: 50%;
   border: 1px solid rgba(195, 195, 195, 0.336);
-  background-image: url(https://i.pinimg.com/enabled/564x/2c/e2/73/2ce273f4d073dbf784243a13fc92a1b9.jpg);
+  background-image: url(../src/assets/me.png);
   background-position-Y: 90%;
   background-size: cover;
   margin-bottom: 20px;
@@ -308,11 +308,15 @@ p {
 
 .box-det {
   height: 280px;
+  /* height: 100%; */
   width: 100%;
   padding: 25px 20px;
   text-align: start;
   border: 1px solid rgba(255, 255, 255, 0.401);
   border-radius: 30px;
+}
+.ppppp{
+  font-size: 18px;
 }
 
 .box-det:hover {

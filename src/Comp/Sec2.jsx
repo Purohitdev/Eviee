@@ -77,8 +77,8 @@ function Sec2() {
                 </div>
                 <div className="box-det">
                 <FaDiscord className='det-icon' />
-                    <h1>Discord server </h1>
-                    <p>Build and grow your Discord server with our community of passionate creators!</p>
+                    <h1>Server/bot designer</h1>
+                    <p>Create engaging and user-friendly Discord servers and custom bots.</p>
                 </div>
                 <div className="box-det">
                 <FaDatabase  className='det-icon'/>

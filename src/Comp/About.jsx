@@ -54,9 +54,10 @@ function About() {
             <div className="btm-about">
                 <p>I'm a passionate and driven computer engineering student currently pursuing my diploma. With a solid  </p>
                  <p>   foundation in data analysis and a year of hands-on experience as a Data Analyst intern at FlyIT Infotech. </p>
-                  <p>   Beyond data, I am an intermediate-level front-end developer. I'm always eager to collaborate on innovative </p>
+                  <p>   Beyond data, I am an intermediate-level front-end developer  I'm always eager to collaborate on innovative </p>
                     <p>  projects and am constantly seeking opportunities to learn and grow in the tech field. Let’s connect and </p>
                      <p>  create something amazing together!</p>
+                     <p> Whether it's on the cricket field or in the coding arena, I'm driven by the pursuit of excellence 🏆.</p>
 
             </div>
 
