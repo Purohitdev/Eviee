@@ -62,9 +62,7 @@ function Footer() {
                         <button className="button">
                             <span className="button-content"> <a href="mailto:aryaaakiran8106@gmail.com" target='_blank' > <p>Email me <IoMdMail /> </p> </a> </span>
                         </button>
-                        <button className="button">
-                            <span className="button-content"> <a href="https://wa.me/8108674893?text=hy" target='_blank'>  <p>Whatapp  <IoLogoWhatsapp /></p> </a>  </span>
-                        </button>
+
 
                     </div>
 
