@@ -6,6 +6,7 @@ import p3 from "../assets/net.png";
 import p4 from "../assets/arya.png";
 import p5 from "../assets/crud.png"
 import p6 from "../assets/watch.png"
+import p7 from "../assets/mahima.png"
 import gsap from "gsap";
 import { PiProjectorScreenChartDuotone } from "react-icons/pi";
 import ScrollTrigger from "gsap/ScrollTrigger";
@@ -166,6 +167,26 @@ function Sec3() {
                   <div className="img-det">
                     <h1>6 // Watchify</h1>
                     <p>~ html-css</p>
+
+
+
+                  </div>
+                </a>
+
+              </div>
+            </Col>
+            </Row>
+            <Row>
+            <Col lg={6}>
+              <div className="pro-box">
+                <a href="https://mahima.framer.media/" target='_blank'>
+                  <div className="in-box">
+                    <img src={p7} alt="" srcset="" />
+
+                  </div>
+                  <div className="img-det">
+                    <h1>8 // Mahima</h1>
+                    <p>~ Framer</p>
 
 
 
