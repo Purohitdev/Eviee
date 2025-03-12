@@ -674,6 +674,9 @@ svg {
 
 
 
+  .col{
+    margin-top: 30px;
+  }
 
 
 @media screen and (min-width:0px) and (max-width:600px) {
@@ -698,6 +701,10 @@ svg {
   }
 
  
+  .col{
+    margin-top: 0px;
+  }
+
   .bottom-sec4 {
     padding: 40px;
   }
@@ -778,6 +785,7 @@ svg {
     height: 230px;
   }
 
+  
 
 }
 
@@ -796,6 +804,11 @@ svg {
   .sec3 {
     padding: 0px;
   }
+
+  .col{
+    margin-top: 0px;
+  }
+
 
   .pro-box {
     margin-top: 20px;
@@ -823,3 +836,7 @@ svg {
   }
 
 }
+
+
+
+
