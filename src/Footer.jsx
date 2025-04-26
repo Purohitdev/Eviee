@@ -70,7 +70,7 @@ function Footer() {
                 </div>
                 <div className="btm-foot">
 
-                    <h1>@impic.tech 🖤</h1>
+                    <h1><a href="https://dev.impic.tech/">@dev.impic.tech 🖤</a></h1>
 
                     <div className="icon-box-ft">
                         <div className="icon-box">
@@ -98,7 +98,7 @@ function Footer() {
                    
                         </div>
 
-                        <p>-dev.impic </p>
+                        <p> <a href="https://dev.impic.tech/">-dev.impic</a> </p>
                     </div>
 
 

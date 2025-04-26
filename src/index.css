@@ -8,6 +8,11 @@
   box-sizing: border-box;
 }
 
+
+.footer a{
+  color: white;
+}
+
 .hero {
   height: 100vh;
 
